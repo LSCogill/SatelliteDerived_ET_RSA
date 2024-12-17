@@ -8,3 +8,9 @@ The estimated evapotranspiration from the ensemble time series dataset is evalua
 - Conduct Shapiro-Wilks test for normality
 - Conduct Correlation analysis 
 - Calculate KGE and PBias
+
+Metrics determined at each level including:
+1) Overall
+2) Log-transformed
+3) Interannual
+4) Seasonal
