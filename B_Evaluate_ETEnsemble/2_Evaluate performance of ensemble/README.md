@@ -13,4 +13,4 @@ Metrics determined at each level including:
 1) Overall
 2) Log-transformed
 3) Interannual
-4) Seasonal
+4) Seasonal * Data summarised in Python and then Stats done in R
