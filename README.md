@@ -11,11 +11,16 @@ The best performing satellite-derived evapotranspiration products were identifie
  - Note: Evapotranspiration refers to the combination of the evaporation of water from the Earths surface and transpiration from vegetation.
 
 ## Repository Components
-The components of this repository include three primary steps each including a set of method workflow notes and code scripts
-The three steps include the following:
-1) Collating and processing field-measured and satellite-derived evapotranspiration time series datasets
-2) Evaluating the performance of satellite-derived evapotranspiration products
-3) Evapotranspiration ensemble development and evaluating its performance
+The components of this repository include two primary steps each including a set of method workflow notes and code scripts
+The two steps include the following:
+
+A) Evaluate satellite-derived evapotranspiration products
+- Collate and process field-measured and satellite-derived evapotranspiration time series datasets
+- Evaluate the performance of satellite-derived evapotranspiration products
+
+B) Select products for an ensemble
+- Develop ensemble
+- Evaluate the ensembles performance
 
 ![WorkFlow](https://github.com/user-attachments/assets/9db699e7-8c30-4ada-b09d-8215b40a854c)
 
