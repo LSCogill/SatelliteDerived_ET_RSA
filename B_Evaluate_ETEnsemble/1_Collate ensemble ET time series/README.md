@@ -1,6 +1,6 @@
 # Step 1
 
-This step involves deriving time series evapotranspiration (mm/month) datasets using a mean ensemble model in Google Colab via the Earth Engine API.
+This step involves deriving a time series evapotranspiration (mm/month) dataset for each of the 14 flux tower sites using a mean ensemble model in Google Colab via the Earth Engine API.
 
 ## Instructions:
 ### Acquire ensemble ET time series dataset using the ensemble of best performing individual satellite-derived ET products
