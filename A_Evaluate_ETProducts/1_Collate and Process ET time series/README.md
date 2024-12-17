@@ -43,3 +43,5 @@ The satellite-product datasets are also available from different sources includi
 
 ** Conducted in Google Colab using Python-notebooks
 This step plots the ET timeseries of field-measured vs satellite-derived at a monthly timestep.
+
+## *Details of the flux tower sites and satellite-derived evapotranspiration products can be found in the Images&Notes folder in this repository*
