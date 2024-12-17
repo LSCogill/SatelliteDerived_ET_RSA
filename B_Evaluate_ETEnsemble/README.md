@@ -1,8 +1,8 @@
 # Step 1:
-Collate ET time series datasets with the ensemble
+Details on collating the ET time series datasets with the ensemble
 
 # Step 2:
-Evaluate performance of ensemble:
+Evaluate performance of the ensemble:
 - Correlation
 - Kling-Gupta Effiecency
 - Percent Bias
