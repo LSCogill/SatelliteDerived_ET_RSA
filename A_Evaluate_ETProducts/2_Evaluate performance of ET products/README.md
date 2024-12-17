@@ -11,6 +11,7 @@ The evaluation is conducted in R-studio and is comprised of:
 
 ## 2.1) Transform time series datasets for different levels
 Here data is transformed for analyses within each of the levels
+- Overall
 - Log transformed
 - Interannual
 - Seasonal
