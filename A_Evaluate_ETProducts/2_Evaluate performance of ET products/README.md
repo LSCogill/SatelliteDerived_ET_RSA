@@ -1,7 +1,7 @@
 # Step 2
 The second step includes evaluating the performance of the satellite-derived ET products at each of the 14 flux tower stations as well as for grouped biomes. 
 
-* Conducted in R-studio using R notebooks
+** Conducted in R-studio using R notebooks
 
 
 The evaluation is conducted in R-studio and is comprised of:
