@@ -19,7 +19,7 @@ A) Evaluate satellite-derived evapotranspiration products
 - Evaluate the performance of satellite-derived evapotranspiration products
 
 B) Select products for an ensemble
-- Develop ensemble
+- Collate evapotranspiration time series using ensemble
 - Evaluate the ensembles performance
 
 ![WorkFlow](https://github.com/user-attachments/assets/9db699e7-8c30-4ada-b09d-8215b40a854c)
