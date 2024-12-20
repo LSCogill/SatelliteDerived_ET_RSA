@@ -3,9 +3,6 @@
 ##################################################################################
 
 # Install relevant packages
-library(hydroGOF) 
-library(dygraphs)
-library(highcharter)
 library(dplyr)
 library(xts)
 library(zoo)
