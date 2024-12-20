@@ -18,13 +18,13 @@ Field-measured ET from the flux tower field sites come in different formats so c
 
 These processing steps include:
 - Date Conversion: converting all date/timestamp fields to the same date format
-- ReddyProc Gap filling: some datasets have gaps due to various reasons such as theft of instruments, instrument malfunction, freak weather events, etc. It is therefore attempted to gap fill these datasets using a reputable approach, namely ReddyProc.
+- ReddyProc Gap filling: some datasets have gaps due to various reasons such as instrument malfunction, freak weather events, fire, etc. 
 - Gap fill sense-check: the data is sense checked after the ReddyProc procedure to ensure that the original ET data remains unaltered and that only gaps are filled.
-- ET daily aggregate to ET monthly: ET data is aggregated to a monthly timestep so that each site has a representative monthly ET (mm/month) dataset
+- ET daily aggregate to ET monthly: ET data is aggregated to a monthly timestep so that each site has a representative monthly ET (mm/month) time series dataset
 
 
 ## 1.2) Collate satellite-derived ET
-Satellite-derived evapotranspiration come in different formats where the data is available at different timesteps (temporal resolutions: SMAP = 3 hourly, MOD16 = 8 day, etc.), so certain steps must be taken to get all the different products datasets into a standardised monthly time series. It must be noted that some satellite-derived products already provide evapotranspiration at a monthly time step. 
+Satellite-derived evapotranspiration come in different formats where the data is available at different timesteps (temporal resolutions: SMAP = 3 hourly, MOD16 = 8 day, etc.), so data must be aggregated into a standardised monthly time series. It must be noted that some satellite-derived products already provide evapotranspiration at a monthly time step. 
 
 ** Conducted in Google Colab using Python-notebooks
 
@@ -43,7 +43,7 @@ The satellite-product datasets are also available from different sources includi
 
 ## 1.3) Plot time series of field-measured vs satellite-derived ET
 
-** Conducted in Google Colab using Python-notebooks
+** Conducted in Google Colab using Python-notebooks.
 This step plots the ET timeseries of field-measured vs satellite-derived at a monthly timestep.
 
-### *..Details of the flux tower sites and satellite-derived evapotranspiration products can be found in the Images&Notes folder in this repository..*
+### *..Details of the flux tower sites and satellite-derived evapotranspiration products can be found in the 'Images&Notes' folder in this repository..*
