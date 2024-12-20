@@ -5,9 +5,7 @@ The second step includes evaluating the performance of the satellite-derived ET 
 
 
 The evaluation is conducted in R-studio and is comprised of:
-2.1) Transform data for the different levels including: Log-transformed, Interannual, and Seasonal
-2.2) Testing normality of the data and perform a Correlation between field-measured and satellite-derived ET time series
-2.3) Calculating PBias and KGE
+Transform data for the different levels including: Log-transformed, Interannual, and Seasonal; then testing normality of the data and perform a Correlation between field-measured and satellite-derived ET time series; and then calculating PBias and KGE
 
 ## 2.1) Transform time series datasets for different levels
 Here data is transformed for analyses within each of the levels
