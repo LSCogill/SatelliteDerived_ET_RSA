@@ -1,5 +1,5 @@
 # Aggregate field-measured data to monthly ET. This is comprised of two options:
-# 1) For datasets that ha been gapfilled, aggregate the 30min ET/LE to Daily ET/LE; then proceed to (2) which includes aggregating Daily ET to Monthly ET
+# 1) For datasets that has been gapfilled, aggregate the 30min ET/LE to Daily ET/LE; then proceed to (2) which includes aggregating Daily ET to Monthly ET
 # 2) For data that is already in Daily ET format, aggregate Daily ET to Monthly ET
 ################################################################################################
 
