@@ -9,8 +9,10 @@ The estimated evapotranspiration from the ensemble time series dataset is evalua
 - Conduct Correlation analysis 
 - Calculate KGE and PBias
 
-Metrics determined at each level including:
+Performance metrics are calculated at each level including:
 1) Overall
 2) Log-transformed
 3) Interannual
-4) Seasonal * (a) Data summarised in Python and then (b) Stats done in R
+4) Seasonal
+   * (a) Aggregate data to seasonal level in Python
+   * (b) Performance metrics stattistics done in R
