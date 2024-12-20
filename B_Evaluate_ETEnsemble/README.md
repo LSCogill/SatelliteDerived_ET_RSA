@@ -1,5 +1,5 @@
 # Step 1:
-Details on collating the ET time series datasets with the ensemble
+Collate ensemble ET time series datasets 
 
 # Step 2:
 Evaluate performance of the ensemble:
