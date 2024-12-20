@@ -15,7 +15,6 @@ This step is comprised of three parts including:
 Field-measured ET from the flux tower field sites come in different formats so certain processing must take place to ensure standardization before performing analyses.
 
 ** Conducted in R-studio using R-notebooks
-** WaPOR, SSEBop, and PT-JPL datasets acquired manually from the site links provided below
 
 These processing steps include:
 - Date Conversion: converting all date/timestamp fields to the same date format
@@ -28,6 +27,8 @@ These processing steps include:
 Satellite-derived evapotranspiration come in different formats where the data is available at different timesteps (temporal resolutions: SMAP = 3 hourly, MOD16 = 8 day, etc.), so certain steps must be taken to get all the different products datasets into a standardised monthly time series. It must be noted that some satellite-derived products already provide evapotranspiration at a monthly time step. 
 
 ** Conducted in Google Colab using Python-notebooks
+
+** WaPOR, SSEBop, and PT-JPL datasets acquired manually from the site links provided below
 
 The satellite-product datasets are also available from different sources including the following:
 - WaPOR: WaPOR v2 & v3 site [https://data.apps.fao.org/wapor/?lang=en]
