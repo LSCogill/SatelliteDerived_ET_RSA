@@ -1,4 +1,6 @@
-# Seasonal for example of Benfontein - Site 1 (BF1)
+# Seasonal 
+
+# Example for Benfontein - Site 1 (BF1)
 library(lubridate)
 library(ggplot2)
 library(hydroGOF) 
@@ -10,53 +12,6 @@ library(zoo)
 setwd("C:\\Users\\Liam\\OneDrive - Stellenbosch University\\ET_Data\\Month_vs_Month_ET_Data")
 BF1 <- read.csv("ET_Seasonal_BF1.csv", skip=0, sep = ",")
 BF1$Month_Year <- as.Date(BF1$Month_Year, format = "%d/%m/%Y")
-
-# Plot original data for TS plot = (i) Slider version + (ii) Neat version for PNG export 
-
-# (i) TS with slider and legend
-ts_plot(BF1,
-        title = "Evapotranspiration: BF1",
-        Xtitle = "Date",
-        Ytitle = "ET (mm/month)",
-        slider = TRUE)
-
-# (ii) PNG Export with monthly intervals (x-axis)
-Seasonal_TSplot <- plot_ly(BF1, type = 'scatter', mode = 'lines')%>%
-  add_trace(x = ~Month_Year, y = ~Field_ET_monthly, name = 'Field_ET', line = list(color = 'black', width = 4))%>%
-  add_trace(x = ~Month_Year, y = ~TC_monthly, name = 'TerraClimate_ET')%>%
-  add_trace(x = ~Month_Year, y = ~SMAP_monthly, name = 'SMAP_ET')%>%
-  add_trace(x = ~Month_Year, y = ~SSEBop_monthly, name = 'SSEBop_ET')%>%
-  add_trace(x = ~Month_Year, y = ~GLDAS_monthly, name = 'GLDAS_ET')%>%
-  add_trace(x = ~Month_Year, y = ~FLDAS_monthly, name = 'FLDAS_ET')%>%
-  add_trace(x = ~Month_Year, y = ~WaPOR_monthly, name = 'WaPOR_ET')%>%
-  add_trace(x = ~Month_Year, y = ~MOD16_monthly, name = 'MOD16_ET')%>%
-  add_trace(x = ~Month_Year, y = ~PTjpl_monthly, name = 'PTjpl_ET')%>%
-  layout(title = 'Evapotranspiration (mm/month): BF1',legend=list(title=list(text='ET_Product')),
-         xaxis = list(title = 'Date', dtick = "M1", tickformat="%b %Y", tickangle = -45), yaxis = list(title = 'Evapotranspiration (mm/month)'), width = 1500)
-
-Seasonal_TSplot
-
-# MS Plots
-Seasonal_TSplot <- plot_ly(BF1, type = 'scatter', mode = 'lines') %>%
-  add_trace(x = ~Month_Year, y = ~Field_ET_monthly, name = 'Field_ET', line = list(color = 'black', width = 4)) %>%
-  add_trace(x = ~Month_Year, y = ~TC_monthly, name = 'TerraClimate_ET', line = list(color = 'blue')) %>%
-  add_trace(x = ~Month_Year, y = ~SMAP_monthly, name = 'SMAP_ET', line = list(color = 'orange')) %>%
-  add_trace(x = ~Month_Year, y = ~SSEBop_monthly, name = 'SSEBop_ET', line = list(color = 'magenta')) %>%
-  add_trace(x = ~Month_Year, y = ~GLDAS_monthly, name = 'GLDAS_ET', line = list(color = 'red')) %>%
-  add_trace(x = ~Month_Year, y = ~FLDAS_monthly, name = 'FLDAS_ET', line = list(color = 'purple')) %>%
-  add_trace(x = ~Month_Year, y = ~WaPOR_monthly, name = 'WaPOR_ET', line = list(color = 'limegreen')) %>%
-  add_trace(x = ~Month_Year, y = ~MOD16_monthly, name = 'MOD16_ET', line = list(color = 'saddlebrown')) %>%
-  add_trace(x = ~Month_Year, y = ~PTjpl_monthly, name = 'PTjpl_ET', line = list(color = 'yellow')) %>%
-  layout(
-    title = '',
-    xaxis = list(title = '', dtick = "M1", tickformat = "%b %Y", tickangle = -45),
-    yaxis = list(title = 'Evapotranspiration (mm/month)', showticklabels = TRUE),
-    showlegend = TRUE,
-    width = 1500
-  )
-
-Seasonal_TSplot
-
 
 ####################################################
 # Perform Spearman Correlation analysis: Seasonal Data
