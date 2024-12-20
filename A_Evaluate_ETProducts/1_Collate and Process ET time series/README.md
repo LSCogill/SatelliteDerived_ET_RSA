@@ -18,7 +18,6 @@ Field-measured ET from the flux tower field sites come in different formats so c
 
 These processing steps include:
 - Date Conversion: converting all date/timestamp fields to the same date format
-- ReddyProc Gap filling: some datasets have gaps due to various reasons such as instrument malfunction, freak weather events, fire, etc. 
 - Gap fill sense-check: the data is sense checked after the ReddyProc procedure to ensure that the original ET data remains unaltered and that only gaps are filled.
 - ET daily aggregate to ET monthly: ET data is aggregated to a monthly timestep so that each site has a representative monthly ET (mm/month) time series dataset
 
