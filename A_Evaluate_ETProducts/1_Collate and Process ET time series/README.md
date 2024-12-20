@@ -15,6 +15,7 @@ This step is comprised of three parts including:
 Field-measured ET from the flux tower field sites come in different formats so certain processing must take place to ensure standardization before performing analyses.
 
 ** Conducted in R-studio using R-notebooks
+** WaPOR, SSEBop, and PT-JPL datasets acquired manually from the site links provided below
 
 These processing steps include:
 - Date Conversion: converting all date/timestamp fields to the same date format
