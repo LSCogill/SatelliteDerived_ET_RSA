@@ -1,6 +1,6 @@
 # Evaluating the performance of satellite-derived evapotranspiration products across varying bioclimates in South Africa
 
-This repository hosts the code for the acquisition and processing of evapotranspiration time series datasets.
+This repository hosts the code for the processing of acquired evapotranspiration time series datasets.
 
 ## Summary
 In this study we aim to evaluate the performance of freely available satellite-derived evapotranspiration products across a varying a bioclimate in South Africa. 
