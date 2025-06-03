@@ -13,6 +13,7 @@ This step is comprised of three parts including:
 
 ## 1.1) Collate field-measured ET
 Field-measured ET from the flux tower field sites come in different formats so certain processing must take place to ensure standardization before performing analyses.
+Some of the flux tower sites data are now available at: https://observationsmonitor.saeon.ac.za/home
 
 ** Conducted in R-studio using R-notebooks
 
